@@ -58,7 +58,7 @@ body {
     background:white;
     color: black;
     height: 37rem;
-    grid-template-columns:2 / 2;
+    grid-template-columns:2 / 3;
   }
   
   footer {
