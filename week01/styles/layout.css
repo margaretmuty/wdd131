@@ -1,28 +1,28 @@
 * { 
 	margin: 0;
 	padding-left: 0;
-    max-width: 2000px;
-    display: block
+    width: 2000px;
+    display: block;
 }
 body {
-    display: grid;
-    height: 50rem;
-    grid-template: auto 1fr / 75% auto;
+    display: grid; 
+    grid-template: auto 1fr auto / 70% auto auto;
   }
   
-  header, footer {
+  .header { 
     background: rgb(74, 74, 74);
     color: white;
     font-size: 1rem;
-    font-weight: 500;
-  }
-  header {    
+    font-weight: 500;  
     padding: 1rem;
-    grid-column: 1 / 4;
+    height: 5rem;
+    grid-column: 1 / 3;
+
 }
   h1 {
     font-size: 1.2rem;
     font-weight: 500;
+   
   }
   nav {
     background-color: rgb(11, 11, 11);
@@ -31,42 +31,44 @@ body {
     align-items: center;
     font-size: 1rem;
     width: 2000px;
-    margin-top: 2.65rem;
-   
+    height: 3rem;
+
   }
-  main {
-    display: grid;
-    height: 35rem;
-    grid-template: 75% auto
-  }
+  
     .about a {
     display: block;
     color: white;
     padding: 15px;
     text-decoration: none;
-    margin-left: 15px;
+    font-size: 1.2rem;
+    padding: 5rem;
+    
 }
-  .main {
-    background: rgb(216, 215, 217);
+  main { 
+    background: rgb(188, 185, 190);
     color: black;
     grid-column: 1 / 2;
-    padding-left: 1rem;
+    height: 35rem;
+    padding: 1rem;
+    height: 35rem;
+   
   }
   
-  .aside {
+  .aside-content {
     background:white;
     color: black;
-    grid-column: 2/ 3;
+    height: 37rem;
+    grid-template-columns:2 / 2;
   }
   
   footer {
     background: rgb(74, 74, 74);
     color: white;
-    padding: 2rem;
     text-align: center;
-    grid-column: 1 / 4;
-    height: 10rem;
+    grid-column: 1 / 3;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 500;  
+    padding: 1rem;
+    height: 12rem;
   }
   
