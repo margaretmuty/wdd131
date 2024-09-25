@@ -5,6 +5,9 @@
     max-width: 1000px;
     background-color: #faf8f7;
 }
+html {
+  background-color: #403f3f;
+}
 :root {
     --primary-color: #65000B;
     --secondary-color: #7A000Aff;
