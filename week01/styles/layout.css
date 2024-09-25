@@ -12,7 +12,7 @@ body {
   .header { 
     background: rgb(74, 74, 74);
     color: white;
-    font-size: 1rem;
+    font-size: 3rem;
     font-weight: 500;  
     padding: 1rem;
     height: 5rem;
@@ -51,14 +51,10 @@ body {
     height: 35rem;
     padding: 1rem;
     height: 35rem;
+    width: 300px;
    
   }
-  
-  .aside-content {
-    background:white;
-    color: black;
-    height: 37rem;
-  }
+
   
   footer {
     background: rgb(74, 74, 74);
